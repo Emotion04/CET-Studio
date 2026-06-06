@@ -1,0 +1,10 @@
+# Vercel deployment — files excluded from upload
+# Already in .gitignore but explicit here ensures Vercel CLI also skips them
+
+node_modules/
+.git/
+.next/
+.env.local
+.env
+*.md
+LICENSE
